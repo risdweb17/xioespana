@@ -1,0 +1,28 @@
+body{
+	font-family: 'Crete Round', sans-serif;
+	color:white;
+	background-color: pink
+	;
+}
+
+
+
+ h2 { font-family: 'Lobster';font-size: 28px;
+      color:brown;
+}
+ h3 { font-family:'Lobster';font-size: 22px;
+}
+
+ h4 { font-family: 'Lobster';font-size: 22px; }
+
+.column {
+	width: 50%;
+	float: left;
+	padding: 1em;
+	box-sizing: border-box;
+
+}
+
+img {
+	max-width: 100%;
+}
