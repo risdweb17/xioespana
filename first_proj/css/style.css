@@ -1,6 +1,7 @@
 h1 { 
 	font-family: Shrikhand;
 	}
+
 .column {
 	width:20%;
 	float:left;
@@ -14,16 +15,26 @@ img {
 
 h2 {
 	font-family: Amiri;
-	font-size:14px;
+	font-size:17px;
 	font-weight: 700;
+
 
 }
 h3 {
 	font-family: Amiri;
-	font-weight: 400;
+    font-weight: 400;
+    line-height: 4px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: -8px; 
 
 
 }
+h4 {
+	line-height: 14px;
+}
+
+
 
 @media screen and (max-width:500px ) {
 	.column {width:100%;}
