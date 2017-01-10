@@ -13,11 +13,14 @@ img {
 }
 
 h2 {
-	font-family: Shrikhand;
-	font-size:12px;
+	font-family: Amiri;
+	font-size:14px;
+	font-weight: 700;
+
 }
 h3 {
 	font-family: Amiri;
+	font-weight: 400;
 
 
 }
