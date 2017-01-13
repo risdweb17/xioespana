@@ -1,23 +1,21 @@
 body {
     margin: 0px;
     border: 0px;
-
-
 }
 
-#navbar {
+#first {
     width:100%;
     height:60px;
     background-color:#FC7586;
     color:white;
-    position:fixed;
-    top:0;
     font-family:'Oswald', sans-serif;
     word-spacing: 90px;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
 }
 
-#linkref {
+#link {
     color:white;
     text-decoration:none;
     padding:15px;
@@ -28,17 +26,18 @@ body {
 #second {
     width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FC7C8C;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:80px;
     word-spacing: 90px;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 
 }
 
-#link {
+#link2 {
      color:white;
     text-decoration:none;
     padding:15px;
@@ -50,35 +49,14 @@ body {
 #third {
      width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FC8392;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:160px;
     word-spacing: 90px;
     padding-top: 10px;
-
-}
-
-#link2 {
-    color:white;
-    text-decoration:none;
-    padding:15px;
-    border-bottom: 2px solid white;
-    padding-bottom: 5px;
-
-}
-
-#fourth {
-     width:100%;
-    height:60px;
-    background-color:#FC7586;
-    color:white;
-    position:fixed;
-    font-family:'Oswald', sans-serif;
-    top:240px;
-    word-spacing: 90px;
-    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 
 }
 
@@ -91,16 +69,17 @@ body {
 
 }
 
-#fifth {
+#fourth {
      width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FC8A99;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:320px;
     word-spacing: 90px;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 
 }
 
@@ -113,16 +92,18 @@ body {
 
 }
 
-#sixth {
-    width:100%;
+#fifth {
+     width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FC919F;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:400px;
     word-spacing: 90px;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+
 }
 
 #link5 {
@@ -134,16 +115,17 @@ body {
 
 }
 
-#seventh {
-     width:100%;
+#sixth {
+    width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FC98A5;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:480px;
     word-spacing: 90px;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 }
 
 #link6 {
@@ -155,17 +137,17 @@ body {
 
 }
 
-#eigth {
+#seventh {
      width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FC9FAC;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:560px;
     word-spacing: 90px;
     padding-top: 10px;
-
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 }
 
 #link7 {
@@ -177,20 +159,44 @@ body {
 
 }
 
-#ninth {
-    width:100%;
+#eigth {
+     width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FDA6B2;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:640px;
     word-spacing: 90px;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 
 }
 
 #link8 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#ninth {
+    width:100%;
+    height:60px;
+    background-color:#FDADB8;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+#link9 {
     color:white;
     text-decoration:none;
     padding:15px;
@@ -201,17 +207,18 @@ body {
 #tenth {
     width:100%;
     height:60px;
-    background-color:#FC7586;
+    background-color:#FDB4BF;
     color:white;
-    position:fixed;
     font-family:'Oswald', sans-serif;
-    top:720px;
     word-spacing: 90px;
     padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 
 }
 
-#link9 {
+#link10 {
     color:white;
     text-decoration:none;
     padding:15px;
@@ -220,6 +227,234 @@ body {
 
 }
 
+#eleven {
+    width:100%;
+    height:60px;
+    background-color:#FDBCC5;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
 
+}
+
+#link11 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#twelve {
+    width:100%;
+    height:60px;
+    background-color:#FDC3CC;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link12 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#thirteen {
+    width:100%;
+    height:60px;
+    background-color:#FDCAD2;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link13 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#fourteen {
+    width:100%;
+    height:60px;
+    background-color:#FED1D8;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link14 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#fifteen {
+    width:100%;
+    height:60px;
+    background-color:#FED8DF;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link15 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#sixteen {
+    width:100%;
+    height:60px;
+    background-color:#FEDFE5;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link16 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#seventeen {
+    width:100%;
+    height:60px;
+    background-color:#FEE6EB;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link17 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#eighteen {
+    width:100%;
+    height:60px;
+    background-color:#FEEDF2;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link18 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#nineteen {
+    width:100%;
+    height:60px;
+    background-color:#FEF4F8;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link19 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
+
+#twenty {
+    width:100%;
+    height:60px;
+    background-color:#FFFCFF;
+    color:white;
+    font-family:'Oswald', sans-serif;
+    word-spacing: 90px;
+    padding-top: 10px;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+#link20 {
+    color:white;
+    text-decoration:none;
+    padding:15px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+
+}
 
 
