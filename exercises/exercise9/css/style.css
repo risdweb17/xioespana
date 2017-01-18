@@ -15,6 +15,7 @@ body {
 	position:relative;
     left: 500px;
     top:200px;
+
 }
 
 .blue {
@@ -24,8 +25,8 @@ body {
 	position:relative;
     left: 150px;
     top:400px;
+ }
 
-}
 
 .black {
 	width: 100px;
@@ -87,7 +88,7 @@ body {
     position: relative;
     width: 30%;
     top:110px;
-    left:35%;
+    left:36%;
     font-family: 'Karla', sans-serif;
     font-size: 16px;
 
@@ -104,4 +105,46 @@ body {
 
 }
 
+@-webkit-keyframes super-rainbow {
+    0%   { background: red; } 
+    20%  { background: orange; }
+    40%  { background: yellow; }
+    60%  { background: green; }
+    80%  { background: blue; }
+    100% { background: violet; }
+}
+
+@-moz-keyframes super-rainbow {
+    0%   { background: red; } 
+    20%  { background: orange; }
+    40%  { background: yellow; }
+    60%  { background: green; }
+    80%  { background: blue; }
+    100% { background: violet; }
+}
+
+.red{
+     background: red;  
+     -webkit-animation: super-rainbow 10s infinite alternate linear; 
+     -moz-animation: super-rainbow 10s infinite alternate linear; 
+}
+
+.blue{
+     background: red;  
+     -webkit-animation: super-rainbow 3s infinite alternate linear; 
+     -moz-animation: super-rainbow 3s infinite alternate linear; 
+}
+
+.yellow{
+     background: red;  
+     -webkit-animation: super-rainbow 5s infinite alternate linear; 
+     -moz-animation: super-rainbow 5s infinite alternate linear; 
+}
+
+
+ 
+@media screen and (max-width:500px ) {
+	.div {width:100%;}
+
+}
 
