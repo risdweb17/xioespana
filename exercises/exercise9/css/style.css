@@ -53,6 +53,7 @@ body {
 	position:relative;
     left: 680px;
     top:100px;
+    animation: bobble 2s infinite;
 }
 
 .yellow {
@@ -127,6 +128,7 @@ body {
      background: red;  
      -webkit-animation: super-rainbow 10s infinite alternate linear; 
      -moz-animation: super-rainbow 10s infinite alternate linear; 
+
 }
 
 .blue{
@@ -141,10 +143,28 @@ body {
      -moz-animation: super-rainbow 5s infinite alternate linear; 
 }
 
+.black2 {
+	animation: bobble 2s infinite;
+}
+@keyframes bobble {
+    0% {
+        transform: translate3d(0px, 0px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(0px, 100px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0px, 0px, 0px);
+    }
 
- 
+
 @media screen and (max-width:500px ) {
 	.div {width:100%;}
 
 }
+
+
+
 
