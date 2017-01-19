@@ -2,6 +2,10 @@ body {
     margin: 0px;
     border: 0px;
 }
+/*
+a:hover{
+    color: blue;
+}*/
 
 #first {
     width:100%;
@@ -15,7 +19,7 @@ body {
     margin: auto;
 }
 
-#link {
+a {
     color:white;
     text-decoration:none;
     padding:15px;
