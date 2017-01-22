@@ -1,184 +1,130 @@
-h1{
-	font-family: 'Karla', sans-serif;
-	text-align: left
-	font-size:50px;
+html, body {
+    max-height: 1000px;
 }
 
-body {
-	background-color: #FAFCE5;
-}
-
-.grey {
-	width: 100px;
-	height: 100px;
-	background: #B8BAA9;
+.white {
+	width: 290px;
+	height: 1000px;
+	color: white;
 	position:relative;
-    left: 500px;
-    top:200px;
+    left: 0px;
+    top:-20px;
 
-}
-
-.blue {
-	width: 100px;
-	height: 100px;
-	background: #4083B7;
-	position:relative;
-    left: 150px;
-    top:400px;
- }
-
-
-.black {
-	width: 100px;
-	height: 100px;
-	background: black;
-	position:relative;
-    left: 250px;
-    top:300px;
-}
-
-.red {
-	width: 100px;
-	height: 100px;
-	background: red;
-	position:relative;
-    left: 500px;
-    top:200px;
-}
-
-.black2 {
-	width: 100px;
-	height: 100px;
-	background: black;
-	position:relative;
-    left: 680px;
-    top:100px;
-    animation: bobble 2s infinite;
 }
 
 .yellow {
-	width: 100px;
-	height: 100px;
-	background: yellow;
+	width: 290px;
+	height: 1000px;
+	color: yellow;
 	position:relative;
-    left: 880px;
-    top:0px;
-}
+    left: 290px;
+    top:-1020px;
+ }
 
-.grey2 {
-	width: 100px;
-	height: 100px;
-	background: #B8BAA9;
+
+.blue {
+	width: 290px;
+	height: 1000px;
+	background: blue;
 	position:relative;
-    left: 500px;
-    top:30px;
-
+    left: 580px;
+    top:-2020px;
 }
 
-.text {
-    margin-top: 200px;
-    font-family: 'Karla', sans-serif;
+.red {
+	width: 290px;
+	height: 1000px;
+	background: red;
+	position:relative;
+    left: 870px;
+    top:-3020px;
 }
 
-.column-left {
-    display: inline-block;
-    width: 35%;
-    font-size: 50px;
-}
-
-.column-center, .column-right{
-    display: inline-block;
-    vertical-align: top;
-    font-size:16px;
-    padding-top: 30px;
-}
-
-.column-center {
-    width: 30%;
-}
-
-.column-right {
-    width: 25%;
-
+.black {
+	width: 290px;
+	height: 1000px;
+	background: black;
+	position:relative;
+    left: 1160px;
+    top:-4020px;
 }
 
 
-@-webkit-keyframes super-rainbow {
+@-webkit-keyframes super-red{
     0%   { background: red; } 
-    20%  { background: orange; }
-    40%  { background: yellow; }
-    60%  { background: green; }
+    20%   { background: black; } 
+    40%  { background: white; }
+    60%  { background: yellow; }
     80%  { background: blue; }
-    100% { background: violet; }
+    100%  { background: red; }
 }
 
-@-moz-keyframes super-rainbow {
-    0%   { background: red; } 
-    20%  { background: orange; }
-    40%  { background: yellow; }
-    60%  { background: green; }
-    80%  { background: blue; }
-    100% { background: violet; }
+@-webkit-keyframes super-blue {
+    0%   { background: blue; } 
+    20%   { background: red; } 
+    40%  { background: black; }
+    60%  { background: white; }
+    80%  { background: yellow; }
+    100%  { background: blue; }
+}
+
+@-webkit-keyframes super-yellow {
+    0%   { background: yellow; } 
+    20%   { background: blue; } 
+    40%  { background:red; }
+    60%  { background:black; }
+    80%  { background: white; }
+    100%  { background: yellow; }
+}
+
+
+@-webkit-keyframes super-black {
+    0%   { background: black; } 
+    20%   { background: white; } 
+    40%  { background:yellow; }
+    60%  { background: blue; }
+    80%  { background: red; }
+    100%  { background:black; }
+}
+
+
+@-webkit-keyframes super-white {
+    0%   { background: white; } 
+    20%   { background: yellow ; } 
+    40%  { background:blue; }
+    60%  { background: red; }
+    80%  { background: black; }
+    100%  { background:white; }
 }
 
 .red{
      background: red;  
-     -webkit-animation: super-rainbow 10s infinite alternate linear; 
-     -moz-animation: super-rainbow 10s infinite alternate linear; 
-
+     -webkit-animation: super-red 4s infinite alternate linear; 
+     
 }
 
 .blue{
-     background: red;  
-     -webkit-animation: super-rainbow 3s infinite alternate linear; 
-     -moz-animation: super-rainbow 3s infinite alternate linear; 
+     background: blue;  
+     -webkit-animation: super-blue 4s infinite alternate linear; 
 }
 
 .yellow{
-     background: red;  
-     -webkit-animation: super-rainbow 5s infinite alternate linear; 
-     -moz-animation: super-rainbow 5s infinite alternate linear; 
+     background: yellow;  
+      -webkit-animation: super-yellow 4s infinite alternate linear; 
+}
+    
+.black{
+    background: black;  
+      -webkit-animation: super-black 4s infinite alternate linear; 
 }
 
-.black2 {
-	animation: bobble 2s infinite;
-}
+.white{
+    background: black;  
+      -webkit-animation: super-white 4s infinite alternate linear; 
 
-.black {
-	animation: bobble 2s infinite;
-	animation-direction: reverse;
-}
-
-@keyframes bobble {
-    0% {
-        transform: translate3d(0px, 0px, 0px);
-        animation-timing-function: ease-in;
-    }
-    50% {
-        transform: translate3d(0px, 100px, 0px);
-        animation-timing-function: ease-out;
-    }
-    100% {
-        transform: translate3d(0px, 200px, 0px);
-    }
-}
-
-@media screen and (max-width: 960px) {
-    .column-left, .column-right, .column-center{ 
-            display: block; 
-            width: 100%;
-        }
 }
 
 
-@media (max-width: 480px) {
-    .container > div {
-    	float:none;
-    	width:100%;
-        display: block;
-    }
-
-}
 
 
 
