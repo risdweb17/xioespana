@@ -13,3 +13,21 @@ h1{
 	margin:0 auto;
 }
 
+@media (max-width: 992px) {
+    .photoset-grid-basic{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .photoset-grid-basic{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .photoset-grid-basic{
+        width: 90%;
+        margin; 0 auto;
+    }
+}
