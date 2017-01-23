@@ -1,0 +1,14 @@
+html,body {
+    background-color: white;
+}
+
+h1{
+    font-family: 'Fira Sans', sans-serif;
+        color: yellow;
+        font-size: 50px;
+}
+.photoset-grid-basic {
+	width:1000px;
+	margin:0 auto;
+}
+
