@@ -1,11 +1,7 @@
-.hide {
-	background-color: pink;
-	font-size:25px;  
-	-webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+#hide {
+	background-color: #FDF846; 
 }
 
-.hide:hover {
-    background-color: red;
-    color: white;
+#show {
+	background-color: #8BECFA;
 }
