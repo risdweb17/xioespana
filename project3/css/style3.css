@@ -57,8 +57,7 @@ body{
 
 .red{
      background: red;  
-     -webkit-animation: super-red 4s infinite alternate linear; 
-     
+     -webkit-animation: super-red 4s infinite alternate linear;     
 }
 
 .blue{
