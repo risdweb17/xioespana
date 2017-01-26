@@ -1,3 +1,11 @@
 $( document ).ready(function() {
-for (var line = "#"; line.length < 8; line += "#")
-  console.log(line);
+
+	var line = ""; 
+
+	for (var i = 0; i < 8; i++){
+		line += "#"
+		console.log(line);
+	}
+  
+
+});
