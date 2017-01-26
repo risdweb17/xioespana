@@ -1,5 +1,6 @@
 html,body {
     background-color: white;
+    margin: 0;
 }
 
 h1{
@@ -13,164 +14,92 @@ h1{
 
 }
 
-.one  {
-    background-color:#FAC800;
-    width:69.5px;
+.container div{
+    width: 5%;
     height:150px;
     float:left;
     border:1px solid white;
+    box-sizing: border-box;
+}
+
+.one  {
+    background-color:#FAC800;
 }
 
 .two {
     background-color:#FAD000;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .three {
      background-color:#FAD800;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .four {
     background-color:#FAE000;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .five {
      background-color:#FBE800;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .six {
      background-color:#FBF000;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .seven {
      background-color:#FBF800;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .eight {
      background-color:#FCFC00;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .nine {
      background-color:#FCFC00;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .ten {
      background-color:#FCFC00;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .eleven  {
     background-color:#FCFC00;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .twelve {
     background-color:#FBFB0C;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .thirteen {
      background-color:#FBFB19;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .fourteen {
     background-color:#FAFB26;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .fifteen {
      background-color:#FAFB33;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .sixteen {
      background-color:#F9FB4D;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .seventeen {
      background-color:#F8FA67;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .eightteen {
      background-color:#F7FA81;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .nineteen {
      background-color:#F6FA9B;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 .twenty {
      background-color:#F6FAA8;
-    width:69.5px;
-    height:150px;
-    float:left;
-    border:1px solid white;
 }
 
 @-webkit-keyframes super-yellow {
