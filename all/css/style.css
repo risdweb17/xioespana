@@ -1,0 +1,25 @@
+html,body {
+	margin:0;
+	padding:0;
+
+}
+
+#main1 {
+	background-image: url("../img/all.jpg");
+	background-size: cover;
+	width:100%;
+	position: absolute;
+	height:950px;
+	top:0;
+}
+
+#typing_text {
+	font-family:sans-serif;
+	color:white;
+	font-weight: bold;
+	font-size: 70px;
+	position: absolute;
+	left:500px;
+	top:170px;
+	}
+
