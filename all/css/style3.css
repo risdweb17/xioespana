@@ -13,3 +13,89 @@ html,body {
 	top:0;
 }
 
+h2 {
+	font-family: 'VT323', monospace;
+	position:absolute;
+	top:182px;
+	left:260px;
+	color:black;
+}
+
+h2:hover {
+  color:#ff66cc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+
+}
+
+h2.style1 {
+	font-family: 'VT323', monospace;
+	position:absolute;
+	top:237px;
+	left:260px;
+	color:black;
+}
+
+h2.style1:hover {
+	 color:#ff66cc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+h2.style2 {
+	font-family: 'VT323', monospace;
+	position:absolute;
+	top:423px;
+	left:870px;
+	color:black;
+}
+
+h2.style2:hover {
+	 color:#ff66cc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+h2.style3 {
+	font-family: 'VT323', monospace;
+	position:absolute;
+	top:600px;
+	left:870px;
+	color:black;
+}
+
+h2.style3:hover {
+	 color:#ff66cc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+h2.style4 {
+	font-family: 'VT323', monospace;
+	position:absolute;
+	top:423px;
+	left:1040px;
+	color:black;
+}
+
+h2.style4:hover {
+	 color:#ff66cc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+h2.style5 {
+	font-family: 'VT323', monospace;
+	position:absolute;
+	top:600px;
+	left:1040px;
+	color:black;
+}
+
+h2.style5:hover {
+	 color:#ff66cc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
