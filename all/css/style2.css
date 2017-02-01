@@ -1,0 +1,189 @@
+html,body {
+	margin:0;
+	padding:0;
+
+}
+
+#main1 {
+	background-image: url("../img/all2.jpg");
+	background-size: cover;
+	width:100%;
+	position: absolute;
+	height:1000px;
+	top:0;
+}
+
+
+h2 {
+	font-family: 'Great Vibes', cursive;
+	color:#66ccff;
+	font-size:35px;
+	position: absolute;
+	left:175px;
+	top:175px;
+}
+
+h2:hover {
+	 color: #3385ff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+h2.style1{
+    color:red;
+    font-size:35px;
+	position: absolute;
+	left:435px;
+	top:97px;
+}
+
+h2.style1:hover {
+	color:#ff6666;
+	  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+h2.style2{
+    color:#66ccff;
+    position: absolute;
+	left:685px;
+	top:180px;
+}
+
+h2.style2:hover{
+		 color: #3385ff;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+h2.style3{
+    color:#66ccff;
+    position: absolute;
+	left:940px;
+	top:180px;
+}
+
+h2.style3:hover{
+		 color: #3385ff;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:pointer;
+ }
+
+h2.style4{
+    color:#ffff66;
+    position: absolute;
+	left:1190px;
+	top:180px;
+}
+
+h2.style4:hover{
+		 color: #ffffcc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:pointer;
+}
+h2.style5{
+    color:red;
+    position: absolute;
+	left:170px;
+	top:380px;
+}
+
+h2.style5:hover{
+		 color:#ff6666;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+h2.style6{
+    color:#66ccff;
+    position: absolute;
+	left:415px;
+	top:460px;
+}
+
+h2.style6:hover{
+  color: #3385ff;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:pointer;
+ }
+h2.style7{
+    color:#ffff66;
+    position: absolute;
+	left:678px;
+	top:460px;
+}
+
+h2.style7:hover{
+  color: #ffffcc;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:pointer;
+}
+h2.style8{
+    color:red;
+    position: absolute;
+	left:930px;
+	top:380px;
+}
+
+h2.style8:hover{
+  color:#ff6666;
+  background-color: transparent;
+  text-decoration: none;
+  cursor:pointer;
+}
+h2.style9{
+    color:#66ccff;
+    position: absolute;
+	left:1185px;
+	top:460px;
+}
+
+h2.style9:hover{
+  color: #3385ff;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+h2.style10{
+    color:#66ccff;
+    position: absolute;
+	left:167px;
+	top:745px;
+}
+
+h2.style10:hover{
+  color: #3385ff;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+h2.style11{
+    color:#66ccff;
+    position: absolute;
+	left:415px;
+	top:745px;
+}
+
+h2.style11:hover{
+  color: #3385ff;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+p{
+	font-size: 30px;
+	color:red;
+}
+
+
+
+

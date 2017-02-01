@@ -1,0 +1,13 @@
+1. Prepare 2 sets of three items
+---> 2 arrays of 3 items 
+---> Decalre counter variable 
+2. Display all items on webpage 
+---> attach id to items to correspond to key 
+3. "Listening" to users clicking on items 
+--> when user clicks on item, determine the ID of that item
+4. Check if what user clicked on first is a match with what user clicked on after 
+---> Evaluate that ID against the "key"
+4a. If the pair is a match, output "You're correct!"
+4b. Else, output "Wrong!"
+5. When all pairs are found, end game 
+---> Coynter equals number of pairs 

@@ -9,7 +9,7 @@ html,body {
 	background-size: cover;
 	width:100%;
 	position: absolute;
-	height:950px;
+	height:870px;
 	top:0;
 }
 
@@ -19,7 +19,47 @@ html,body {
 	font-weight: bold;
 	font-size: 70px;
 	position: absolute;
-	left:485px;
-	top:170px;
+	left:455px;
+	top:100px;
 	}
 
+h2 {
+	font-family: 'Great Vibes', cursive;
+	color:red;
+	font-size:35px;
+	position: absolute;
+	left:1207px;
+	top:27px;
+}
+
+h2:hover {
+	 color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+#circle {
+      width: 32px;
+      height: 32px;
+      -webkit-border-radius: 25px;
+      -moz-border-radius: 25px;
+      border-radius: 25px;
+      background: #e6ffff;
+      position:absolute;
+      left:1300px;
+      top:730px;
+    }
+
+@-webkit-keyframes super-blue {
+    0%   { background: #ccffff; } 
+    20%   { background: #99ffff; } 
+    40%  { background:#66ffff; }
+    60%  { background: #33ffff; }
+    80%  { background: #00ffff; }
+    100%  { background: #00cccc; }
+}
+
+#circle{
+    background:  #e6ffff;  
+      -webkit-animation: super-blue 4s infinite alternate linear; 
+}
