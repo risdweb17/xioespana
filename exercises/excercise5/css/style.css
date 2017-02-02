@@ -1,12 +1,79 @@
-body{
-	font-family: 'Karla', sans-serif;
+html,body{
+	background-color: black;	
+}
+#title{
+	font-family: sans-serif;
+	font-weight: bold;
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	left:275px;
+	top:90px;
+	letter-spacing: 0.1505em;
 }
 
-#content {
-    position: relative;
+#contact {
+	font-weight: bold;
+	color: white;
+	font-size: 33px;
+	position: absolute;
+	left:275px;
+	top:190px;
+	font-family:'Source Serif Pro', serif;
 }
-#content img {
+
+#contact2 {
+		font-weight: bold;
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	left:275px;
+	top:450px;
+	font-family:'Source Serif Pro', serif;
+	line-height: 1.6;
+}
+
+#original {
+	top:660px;
+	position: absolute;
+	left:273px;
+	 padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+      background-color: black; 
+    color: white; 
+    border: 4px double white;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#button {
+    padding: 16px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+      background-color: black; 
+    color: white; 
+    border: 4px double white;
+    top:660px;
+    left:440px;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    font-family: 'Source Serif Pro', serif;
+}
+
+#button:hover{
+    background-color: white;
+    color: black;
+}
+#original:hover{
+    background-color: white;
+    color: black;
 }
