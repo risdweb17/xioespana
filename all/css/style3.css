@@ -99,3 +99,12 @@ h2.style5:hover {
   text-decoration: none;
   cursor: pointer;
 }
+
+p {
+	font-family: 'VT323', monospace;
+	position:absolute;
+	top:610px;
+	left:325px;
+	color:white;
+	font-size: 32px;
+}
