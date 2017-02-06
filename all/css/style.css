@@ -63,3 +63,14 @@ h2:hover {
     background:  #e6ffff;  
       -webkit-animation: super-blue 4s infinite alternate linear; 
 }
+
+@media screen and (max-width : 1023px){
+    #main1 {
+        width: 100%;
+    }   
+}
+
+
+
+
+
