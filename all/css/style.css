@@ -5,7 +5,7 @@ html,body {
 }
 
 #main1 {
-	background-image: url("../all/img/all.jpg");
+	background-image: url("../img/all.jpg");
 	background-size: cover;
 	width:100%;
 	position: absolute;
